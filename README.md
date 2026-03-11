@@ -23,7 +23,7 @@ The marimo notebook was coverted from jupyter notebook using the following comma
 uvx marimo convert *.ipynb -o qiskit_hello_world.py
 ```
 
-# Generate Static Site
+# Generate Pdf
 ```sh
-uvx marimo export html-wasm --mode run -o docs -f *.py --show-code --sandbox
+uvx marimo export pdf *.py -o qiskit_hello_world.pdf --sandbox
 ```
