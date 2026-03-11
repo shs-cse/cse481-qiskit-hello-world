@@ -23,7 +23,13 @@ The marimo notebook was coverted from jupyter notebook using the following comma
 uvx marimo convert *.ipynb -o qiskit_hello_world.py
 ```
 
-# Generate Pdf
-```sh
-uvx marimo export pdf *.py -o qiskit_hello_world.pdf --sandbox
+# Generate HTML
+Downloaded file as HTML. To remove the annoying `static-notebook-banner`, added the following style at the end of the `<head>...</head>` tag:
+
+```html
+<style>
+  [data-testid="static-notebook-banner"] {
+    display: none !important;
+  }
+</style>
 ```
