@@ -44,7 +44,7 @@ def _(mo):
 
     Marimo requires a few more package like: `marimo, ipython, seaborn, sympy` etc. But since this file uses PEP723 with uv, all of this will be auto installed when ran with:
 
-    ```py
+    ```sh
     uvx marimo edit *.py --sandbox
     ```
     """)
