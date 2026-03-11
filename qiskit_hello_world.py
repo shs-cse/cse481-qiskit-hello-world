@@ -29,13 +29,6 @@ def _():
 def _(mo):
     mo.md(r"""
     # Install Qiskit and co.
-    """)
-    return
-
-
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
     Install following packages (using `pip` or `uv`):
     - `qiskit[all]`
     - `pylatexenc` _(for drawing circuits)_
