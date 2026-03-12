@@ -12,3 +12,6 @@ wheels/
 # Jupyter Notebook Checkpoints
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# Marimo
+__marimo__/

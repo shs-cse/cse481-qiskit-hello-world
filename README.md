@@ -24,7 +24,12 @@ uvx marimo convert *.ipynb -o qiskit_hello_world.py
 ```
 
 # Generate HTML
-Downloaded file as HTML. To remove the annoying `static-notebook-banner`, added the following style at the end of the `<head>...</head>` tag:
+Downloaded file as HTML, or generate using following command:
+```sh
+uvx marimo export html *.py -o docs/index.html --sandbox
+```
+
+To remove the annoying `static-notebook-banner`, added the following style at the end of the `<head>...</head>` tag:
 
 ```html
 <style>

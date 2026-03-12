@@ -106,7 +106,7 @@ def _(QuantumCircuit):
     pqc = QuantumCircuit(4)
     pqc.ry(theta, 0)
     pqc.h(0)
-    pqc.cx(0,1)
+    pqc.cx(0,1, ctrl_state='0')
     pqc.ccx(0,2,3)
     pqc.mcx([0,1,2],3,ctrl_state='001')
     pqc.ch(0,2)
